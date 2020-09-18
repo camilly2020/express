@@ -30,6 +30,6 @@ app.post("/uppercase", (req, res) => {
   res.json(resultado);
 });
 
-app.listen(3000, () => {
-  console.log("Servidor at 3000");
+app.listen(8080, () => {
+  console.log("Servidor at 8080");
 });
